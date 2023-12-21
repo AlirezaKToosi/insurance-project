@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --orange_color: #F17949;
+  --darkYellow_color: #FAB131;
+  --lightBlue_color: #C7DDEA;
+  --khaki_color: #A9A19E;
+}
