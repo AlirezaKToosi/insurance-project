@@ -1,0 +1,118 @@
+.middle-part {
+    height: 1000px;
+    background-color: var(--khaki_color);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  .middle-part .item1 {
+    background-color: var(--khaki_color);
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .middle-part .item1 h1 {
+    background-color: var(--khaki_color);
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    font-size: 60px;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  
+  .middle-part .item1 .join-button {
+    font-size: 20px;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    margin-left: 100px;
+  }
+  
+  .middle-part .item2 {
+    background-color: var(--khaki_color);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 100px;
+  }
+  
+  .middle-part .item2 p {
+    background-color: var(--khaki_color);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+  }
+  
+  .cards {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, var(--khaki_color) 50%, var(--darkYellow_color) 50%);
+  }
+  
+  .cards .card1, .card2 , .card3 {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .cards h1 {
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  
+  .cards p {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 13px;
+    padding: 40px 15px;
+  }
+  
+  .card-img {
+    border-radius: 7px;
+    height: 40%;
+    width: 90%;
+    overflow: hidden;
+    margin-top: -20px;
+    margin-left: 15px;
+  }
+  
+  .card1 .card-img {
+    background-color:var(--lightBlue_color)
+  }
+  
+  .card2 .card-img {
+    background-color: var(--darkYellow_color)
+  }
+  
+  .card3 .card-img {
+    background-color:var(--orange_color)
+  }
+  
+  .cards img {
+    width: 50%;
+  }
+  
+  .middle-part .item3 {
+    background-color: var(--darkYellow_color);
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: center;
+  }
+  
+  .middle-part .item3 h1 {
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .middle-part .item3 p {
+    font-size: 24px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  

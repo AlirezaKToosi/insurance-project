@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+    color: gray;
+    font-family: "Frank Ruhl Libre", serif;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  nav a:hover{
+    color: black;
+  }
