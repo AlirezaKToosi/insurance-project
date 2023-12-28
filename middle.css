@@ -2,8 +2,8 @@
     height: 1000px;
     background-color: var(--khaki_color);
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
   }
   .middle-part .item1 {
     background-color: var(--khaki_color);
@@ -17,7 +17,7 @@
     color: white;
     font-size: 60px;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
   
   .middle-part .item1 .join-button {
@@ -33,7 +33,7 @@
     background-color: var(--khaki_color);
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 100px;
+    padding: 50px;
   }
   
   .middle-part .item2 p {
@@ -52,8 +52,8 @@
   
   .cards .card1, .card2 , .card3 {
     background-color: white;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border-radius: 20px;
     text-align: center;
   }
@@ -100,6 +100,7 @@
     grid-column: 1/3;
     grid-row: 3/4;
     text-align: center;
+    height: 350px;
   }
   
   .middle-part .item3 h1 {
@@ -109,10 +110,9 @@
   }
   
   .middle-part .item3 p {
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 20px;
-    padding-bottom: 50px;
   }
   

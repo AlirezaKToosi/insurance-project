@@ -1,0 +1,125 @@
+.bottom-part {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 300px 300px;
+  }
+  
+  
+  .bottom-part h1,
+  p {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .bottom-part .item0 {
+    background-color:var(--lightBlue_color);
+  }
+  
+  .bottom-part .item0 h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25%;
+    background-color: var(--lightBlue_color);
+  }
+  
+  .bottom-part .item1 {
+    background-color:white
+  }
+  
+  .bottom-part .item1 h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item1 p {
+    font-size: 24px;
+    padding-top: 10%;
+    text-align: center;
+  }
+  
+  .bottom-part .item2 {
+    background-color: var(--khaki_color);
+  }
+  
+  .bottom-part .item2 h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item2 p {
+    font-size: 24px;
+    padding-top: 10%;
+    text-align: center;
+  }
+  
+  .bottom-part .item3 {
+    background-color: white;
+  }
+  
+  .bottom-part .item3 h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item3 p {
+    font-size: 24px;
+    padding-top: 20%;
+    text-align: center;
+  }
+  
+  .bottom-part .item4 {
+    background-color: var(--orange_color);
+  }
+  
+  .bottom-part .item4 h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item4 p {
+    font-size: 24px;
+    padding-top: 20%;
+    text-align: center;
+  }
+  
+  .bottom-part .item5 {
+    background-color: white;
+  }
+  
+  .bottom-part .item5 h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item5 p {
+    font-size: 24px;
+    padding-top: 20%;
+    text-align: center;
+  }
+  footer { 
+    font-size: 24px;
+    height: 500px;
+    text-align: center;
+    background-color: #797370;
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+  }
+  footer .up-arrow{
+    background-color: var(--khaki_color);
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  .up-arrow .material-symbols-outlined {
+    font-size: 40px;
+  }
+  .up-arrow a{
+    text-decoration: none;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+  
