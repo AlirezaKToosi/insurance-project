@@ -1,0 +1,193 @@
+@import url(./header.css);
+@import url(./nav.css);
+@import url(./middle.css);
+@import url(./bottom.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --orange_color: #f17949;
+  --darkYellow_color: #fab131;
+  --lightBlue_color: #c7ddea;
+  --khaki_color: #a9a19e;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .info-part-1 {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .button-image img {
+    padding-top: 30px;
+    max-height: 85vh;
+  }
+  .part-2,
+  .part-3 {
+    height: 300px;
+  }
+  nav {
+    height: 0px;
+  }
+  .middle-part {
+    height: 3000px;
+    background-color: var(--khaki_color);
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-part .item1 .join-button {
+    display: none;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--khaki_color);
+  }
+  .cards .card1, .card2 , .card3 {
+    background-color: white;
+    width: 75vw;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .cards h1 {
+    font-family: "Fira Sans", serif;
+    color: #000;
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  
+  .cards p {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 18px;
+    padding: 40px 15px;
+  }
+  .middle-part .item3 {
+  display: flex;
+  flex-direction: column;
+  }
+    
+  .middle-part .item3 p {
+    font-size: 18px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .bottom-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-part .item0 {
+    background-color:var(--lightBlue_color);
+  }
+  
+  .bottom-part .item0 h1 {
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  
+  .bottom-part .item1 h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item1 p {
+    font-size: 40px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #000;
+  }
+  
+  
+  .bottom-part .item2 h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item2 p {
+    font-size: 40px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .bottom-part .item3 {
+    background-color: white;
+  }
+  
+  .bottom-part .item3 h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item3 p {
+    font-size: 40px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .bottom-part .item4 {
+    background-color: var(--orange_color);
+  }
+  
+  .bottom-part .item4 h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item4 p {
+    font-size: 40px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .bottom-part .item5 {
+    background-color: white;
+  }
+  
+  .bottom-part .item5 h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .bottom-part .item5 p {
+    font-size: 40px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #000;
+  }
+  footer .up-arrow { 
+    display:none;
+  }
+}
+
