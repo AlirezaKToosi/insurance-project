@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "FiraSans";
+    src: url(fonts/FiraSans-Regular.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "FrankRuhlLibre";
+    src: url(fonts/FrankRuhlLibre-Regular.ttf) format("truetype");
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    background-color: #e6e6e6;
+    max-width: 1850px;
+    margin: auto;
+  }
+  html {
+    --orange_color: #f17949;
+    --darkYellow_color: #fab131;
+    --lightBlue_color: #c7ddea;
+    --khaki_color: #a9a19e;
+  }
+  
+  h1 {
+    font-family: "FrankRuhlLibre", Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  p,
+  a,
+  form {
+    font-family: "FiraSans", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--lightBlue_color);
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
+    font-size: 60px;
+  }
+  
+  .header .man-baby {
+    height: 550px;
+    transform: translate(200px, 25px);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+      color: gray;
+      font-family: "Frank Ruhl Libre", serif;
+      text-decoration: none;
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    nav a:hover{
+      color: black;
+    }
+  
